@@ -72,6 +72,14 @@ export const Header = () => {
             >
               FAVORITES
             </NavLink>
+            <NavLink
+              to='/generate'
+              className={({ isActive }) =>
+                isActive ? 'text-orange-500 font-bold' : 'text-white font-bold'
+              }
+            >
+              GENERATE WITH IA
+            </NavLink>
           </nav>
         </div>
         {isHome && (
